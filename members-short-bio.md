@@ -6,21 +6,16 @@
 
 ## Παράδειγμα
 
-### 1
+### Εγγραφή 1
 #### Όνομα
-Τόλης Χριστομάνος
+Κάποιος Κάποιου
 #### Επάγγελμα
-Software Architect
+Ξέρω κάτι να κάνω καλά
 #### Περίληψη
-Software Architect με ειδίκευση σε cloud native architectures. 
-Manager of Managers (MoM).
-Passionate about performance (frontend and backend)
-Lover of UX/UI
-Amateur in iOS
+Κάτι για τις γνώσεις μου
 #### Θέματα που μπορώ να αναπτύξω
-* cloud native, micro-services, API design, API Management, service orchestration and event choreography
-* line management, company organisation
-* performance monitoring and tracking, APM tooling
-* native Javascript, how browsers work, latest web platform APIs, modern layouts and animations
-* swift and swiftUI
+* λίστα
+* από
+* πράγματα
+* που ξέρω
 
