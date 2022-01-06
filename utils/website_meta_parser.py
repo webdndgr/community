@@ -51,7 +51,7 @@ async def makeRequest(session, blogUrl):
 async def main():
     async with aiohttp.ClientSession() as session:
         tasks = []
-        for blogURL in data["blogs"]:
+        for blogURL in data["items"]:
             print(blogURL)
             tasks.append(makeRequest(session, blogURL))
         results = await asyncio.gather(*tasks)
