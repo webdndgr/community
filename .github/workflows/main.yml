@@ -45,6 +45,6 @@ jobs:
       - name: commit
         run: |
           # Stage the file, commit and push
-          git add index.md
+          git add companies/index.md
           git commit -m "update websites"
           git push origin main
