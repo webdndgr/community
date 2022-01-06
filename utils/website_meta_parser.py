@@ -27,7 +27,7 @@ def validateMetaData(metaEntry):
 
 def generateMarkdown(results):
     writer = pytablewriter.MarkdownTableWriter()
-    writer.table_name = "Blogs"
+    writer.table_name = "Websites"
     writer.header_list = ["URL","Title", "Description", "Image"]
     writer.value_matrix = results
 
