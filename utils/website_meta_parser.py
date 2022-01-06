@@ -36,8 +36,8 @@ def generateMarkdown(results):
         writer.write_table()
 
 
-async def makeRequest(session, blogUrl):
-    resp = await session.get(blogUrl)
+async def makeRequest(session, url):
+    resp = await session.get(url)
     page = await resp.text()
     soup = BeautifulSoup(page, "html.parser")
     title = validateMetaData(soup.find("meta", attrs={"property": "og:title"}))
@@ -45,15 +45,15 @@ async def makeRequest(session, blogUrl):
     image  = validateMetaData(soup.find("meta", attrs={"property": "og:image"}))
     image = "<img src=\"{}\" width=\"200\" />".format(image)
     
-    return [blogUrl, title, description, image]
+    return [url, title, description, image]
 
 
 async def main():
     async with aiohttp.ClientSession() as session:
         tasks = []
-        for blogURL in data["items"]:
-            print(blogURL)
-            tasks.append(makeRequest(session, blogURL))
+        for url in data["items"]:
+            print(url)
+            tasks.append(makeRequest(session, url))
         results = await asyncio.gather(*tasks)
         generateMarkdown(results)
         
