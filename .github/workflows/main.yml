@@ -47,4 +47,4 @@ jobs:
           # Stage the file, commit and push
           git add companies/index.md
           git commit -m "update websites"
-          git push origin main
+          git push origin master
