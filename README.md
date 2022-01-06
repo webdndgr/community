@@ -12,7 +12,7 @@
 
 ## Github Pages
 
-Το website αναπαράγεται στατικά με jekyll and github pages και χρησιμοποιεί αυτό το theme https://github.com/pages-themes/minimal
+Το website αναπαράγεται στατικά στο https://webdndgr.github.io/community/ με jekyll and github pages και χρησιμοποιεί αυτό το theme https://github.com/pages-themes/minimal
 
 ## Open Source
 
