@@ -34,7 +34,7 @@ jobs:
         run: |
           pip install pipenv
           pipenv install --deploy --dev
-      - run: pipenv run python3 utils/website_meta_parser.py -f companies/data.json -o companies/index.md
+      - run: pipenv run python3 utils/website_meta_parser.py -f websites/data.json -o websites/index.md
       
       - name: setup git config
         run: |
@@ -45,6 +45,6 @@ jobs:
       - name: commit
         run: |
           # Stage the file, commit and push
-          git add companies/index.md
+          git add websites/index.md
           git commit -m "update websites"
           git push origin master

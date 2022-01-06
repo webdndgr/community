@@ -8,7 +8,7 @@
 
 Εδώ μπορείτε να δείτε websites για υπηρεσίες webdesign & development από τα μέλη του group μας
 
-[companies/index.md](companies/index.md)
+[websites/index.md](websites/index.md)
 
 ## Open Source
 
