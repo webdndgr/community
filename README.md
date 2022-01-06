@@ -2,7 +2,7 @@
 
 ## Εισαγωγή
 
-Αυτό το repository έχει πληροφορίες για την κοινότητα του Web Design & Development in Greece Κοινότητα.
+Αυτό το repository έχει πληροφορίες για την κοινότητα του Web Design & Development in Greece https://www.facebook.com/groups/2376483471.
 
 ## Open Source
 
